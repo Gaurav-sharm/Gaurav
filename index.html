@@ -1,26 +1,32 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>Gaurav Portfolio</title>
+    <title>Gaurav | Portfolio</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-<script src="https://unpkg.com/scrollreveal"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
-</head>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  </head>
 
   <body>
     <div id="particles"></div>
-
+    <div class="fill" data-width="65%"></div>
+    <div class="cursor-glow"></div>
     <nav class="navbar">
       <div class="logo">&lt;Gaurav /&gt;</div>
 
-      <ul>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+
+      <ul class="nav-links" id="nav-links">
         <li><a href="#hero">Home</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -43,11 +49,12 @@
 
         <div class="hero-buttons">
           <a href="#projects" class="primary">View Projects</a>
-          <a href="#contact" class="secondary">Contact Me</a>
+
+          <a href="#contact" class="secondary">Contact</a>
         </div>
       </div>
 
-      <img src="profile.jpg" class="hero-img">
+      <img src="profile.jpg" class="hero-img" />
     </section>
 
     <section id="projects" class="projects">
@@ -99,7 +106,7 @@
         </div>
 
         <div class="bar">
-          <div class="fill" data-width="65%"></div>
+          <div class="fill" style="width: 65%"></div>
         </div>
       </div>
 
@@ -110,7 +117,7 @@
         </div>
 
         <div class="bar">
-          <div class="fill" data-width="60%"></div>
+          <div class="fill" style="width: 60%"></div>
         </div>
       </div>
 
@@ -121,7 +128,7 @@
         </div>
 
         <div class="bar">
-          <div class="fill" data-width="35%"></div>
+          <div class="fill" style="width: 35%"></div>
         </div>
       </div>
 
@@ -132,7 +139,7 @@
         </div>
 
         <div class="bar">
-          <div class="fill" data-width="40%"></div>
+          <div class="fill" style="width: 40%"></div>
         </div>
       </div>
     </section>
