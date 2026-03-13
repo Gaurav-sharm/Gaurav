@@ -24,11 +24,12 @@ body {
 
 /* NAVBAR */
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 25px 80px;
-  background: #050b16;
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 80px;
+background:#050b16;
 }
 
 .logo {
