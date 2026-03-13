@@ -34,8 +34,8 @@ type();
 const toggle = document.getElementById("menu-toggle");
 const nav = document.getElementById("nav-links");
 
-toggle.onclick = () => {
-  nav.classList.toggle("active");
+toggle.onclick = () =>{
+nav.classList.toggle("active");
 };
 
 /* SCROLL ANIMATION */
