@@ -11,7 +11,7 @@ color:white;
 overflow-x:hidden;
 }
 
-/* particles background */
+/* PARTICLE BACKGROUND */
 
 #particles{
 position:fixed;
@@ -23,7 +23,7 @@ z-index:-1;
 pointer-events:none;
 }
 
-/* cursor glow */
+/* CURSOR GLOW */
 
 .cursor-glow{
 width:300px;
@@ -37,7 +37,7 @@ transform:translate(-50%,-50%);
 z-index:-1;
 }
 
-/* navbar */
+/* NAVBAR */
 
 .navbar{
 display:flex;
@@ -71,7 +71,7 @@ transition:0.3s;
 color:#4ad1ff;
 }
 
-/* hamburger */
+/* HAMBURGER */
 
 .menu-toggle{
 display:none;
@@ -79,20 +79,22 @@ font-size:28px;
 cursor:pointer;
 }
 
-/* hero section */
+/* HERO SECTION */
 
 .hero{
 display:flex;
 align-items:center;
 justify-content:space-between;
-padding:120px 120px;
+gap:80px;
+padding:120px;
 max-width:1400px;
 margin:auto;
 min-height:90vh;
 }
 
 .hero-text{
-max-width:600px;
+max-width:550px;
+text-align:left;
 }
 
 .hero-text h1{
@@ -135,7 +137,7 @@ border:3px solid #4ad1ff;
 box-shadow:0 0 50px rgba(74,209,255,0.6);
 }
 
-/* projects */
+/* PROJECTS */
 
 .projects{
 padding:120px;
@@ -175,7 +177,7 @@ color:#4ad1ff;
 text-decoration:none;
 }
 
-/* skills */
+/* SKILLS */
 
 .skills{
 padding:120px;
@@ -208,7 +210,7 @@ width:0;
 transition:1.5s;
 }
 
-/* contact */
+/* CONTACT */
 
 .contact{
 padding:120px;
@@ -269,6 +271,10 @@ display:flex;
 flex-direction:column;
 text-align:center;
 padding:80px 20px;
+}
+
+.hero-text{
+text-align:center;
 }
 
 .hero-text h1{
