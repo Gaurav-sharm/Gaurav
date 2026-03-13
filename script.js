@@ -1,5 +1,3 @@
-/* typing animation */
-
 const text=[
 "Computer Science Student",
 "Aspiring Full Stack Developer",
@@ -33,7 +31,6 @@ setTimeout(type,100);
 
 type();
 
-
 /* mobile menu */
 
 const toggle=document.getElementById("menu-toggle");
@@ -43,41 +40,20 @@ toggle.addEventListener("click",()=>{
 nav.classList.toggle("active");
 });
 
-
-/* scroll animation */
-
-ScrollReveal().reveal('.hero',{delay:200});
-ScrollReveal().reveal('.projects',{delay:300});
-ScrollReveal().reveal('.skills',{delay:400});
-ScrollReveal().reveal('.contact',{delay:500});
-
-
-/* particle background */
+/* particles */
 
 tsParticles.load("particles",{
 
 particles:{
 number:{value:60},
-
 color:{value:"#4ad1ff"},
-
-links:{
-enable:true,
-color:"#4ad1ff",
-distance:150
-},
-
-move:{
-enable:true,
-speed:1
-}
-
+links:{enable:true,color:"#4ad1ff",distance:150},
+move:{enable:true,speed:1}
 }
 
 });
 
-
-/* cursor glow */
+/* glow */
 
 const glow=document.querySelector(".cursor-glow");
 
@@ -86,17 +62,14 @@ glow.style.left=e.clientX+"px";
 glow.style.top=e.clientY+"px";
 });
 
-
 /* skill animation */
 
 const bars=document.querySelectorAll(".fill");
 
 function animateSkills(){
-
 bars.forEach(bar=>{
 bar.style.width=bar.dataset.width;
 });
-
 }
 
 window.addEventListener("scroll",animateSkills);
