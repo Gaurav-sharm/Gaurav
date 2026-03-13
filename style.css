@@ -84,10 +84,9 @@ cursor:pointer;
 .hero{
 display:flex;
 align-items:center;
-justify-content:space-between;
 gap:80px;
 padding:120px;
-max-width:1400px;
+max-width:1200px;
 margin:auto;
 min-height:90vh;
 }
@@ -135,6 +134,8 @@ border-radius:50%;
 object-fit:cover;
 border:3px solid #4ad1ff;
 box-shadow:0 0 50px rgba(74,209,255,0.6);
+
+margin-left:auto;
 }
 
 /* PROJECTS */
